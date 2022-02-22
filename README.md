@@ -1,2 +1,2 @@
 # Responsive_web
-responsive web badge using HTML, CSS, Bootstrap
+responsive web page using HTML, CSS, Bootstrap
