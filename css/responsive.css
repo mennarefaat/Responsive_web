@@ -1,0 +1,101 @@
+#container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/laptop_top.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+
+    color: rgb(218, 209, 209);
+
+}
+
+#container div {
+    padding-top: 100px;
+}
+
+#container div h1 {
+    padding: 30px;
+}
+
+#container div p {
+    padding: 30px;
+    width: 50%;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+#rig {
+    background: none;
+    color: rgb(141, 76, 76);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+#rig:hover {
+    background-color: tomato;
+}
+
+#pro div {
+    opacity: .3;
+    color: white;
+
+}
+
+#pro div:hover {
+    opacity: 1;
+    color: black;
+
+}
+
+#pro {
+    padding-top: 10px;
+}
+
+footer {
+    padding: 0 30px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(23, 23, 77), rgb(100, 22, 22));
+}
+
+#feature {
+    font-weight: 600;
+}
+
+#activity ul {
+    background-image: linear-gradient(to left, rgb(235, 108, 129), pink);
+    opacity: 0;
+    text-align: center;
+}
+
+#person img:hover~ul {
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+#activity ul i {
+    border: 1px solid white;
+    border-radius: 50%;
+
+    padding: 4%;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.76)
+}
+
+.img:hover {
+    transform: scale(1.07);
+
+}
+#save , #log{
+    border-radius: 20px;
+    padding: 15px;
+    background-image: linear-gradient(to right, rgb(23, 23, 77), rgb(100, 22, 22));
+}
+.hidde{
+    display:none;
+}
+.show{
+    display:block;
+}
